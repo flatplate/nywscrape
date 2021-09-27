@@ -1,0 +1,1 @@
+from nywscrape.pipeline.vectorization.sentencetransformer import SentenceTransformerVectorizationStrategy

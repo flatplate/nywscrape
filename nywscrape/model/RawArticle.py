@@ -11,7 +11,7 @@ class RawArticle:
     to this class, since we don't need them all.
     """
     id: int
-    date_published: datetime
+    date_publish: datetime
     source_domain: str
     title: str
     maintext: str
@@ -19,3 +19,9 @@ class RawArticle:
     image_url: str
     authors: List[str]
     language: str
+
+    def __getitem__(self, item):
+        return self.__dict__[item]
+
+    def __contains__(self, item):
+        return item in self.__dict__

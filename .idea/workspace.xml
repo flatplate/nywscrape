@@ -1,8 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b723ad52-ceae-4e2e-b52b-90c27038cbec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nywscrape/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nywscrape/pipeline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nywscrape/pipeline/clustering/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nywscrape/pipeline/clustering/hdbscan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nywscrape/pipeline/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nywscrape/pipeline/preprocessing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nywscrape/pipeline/preprocessing/strategy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nywscrape/pipeline/preprocessing/strategy/minimal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nywscrape/pipeline/preprocessing/strategy/minimal_cleaning_spacy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nywscrape/pipeline/preprocessing/strategy/spacy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nywscrape/pipeline/sentence/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nywscrape/pipeline/sentence/paragraph_splitter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nywscrape/pipeline/sentence/sentence_splitter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nywscrape/pipeline/storage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nywscrape/pipeline/storage/postgres.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nywscrape/pipeline/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nywscrape/pipeline/vectorization/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nywscrape/pipeline/vectorization/sentencetransformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nywscrape/sentsim.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/nywscrape.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nywscrape.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/nywscrape/clustering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/nywscrape/database/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/RawArticle.py" beforeDir="false" afterPath="$PROJECT_DIR$/nywscrape/model/RawArticle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/nywscrape/database/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nywscrape/sources.py" beforeDir="false" afterPath="$PROJECT_DIR$/nywscrape/sources.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/nywscrape/datapusher.py" afterDir="false" />
+    </list>
+    <list id="0212ac66-aa29-45b9-b5f7-0c0f02222228" name="Revert &quot;Add gitignore&quot;" comment="Revert &quot;Add gitignore&quot;&#10;&#10;This reverts commit f59e9476">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +67,43 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last.edited.regexp" value=")_)." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pipeline/Sentences/Test Delete Later.ipynb" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ural_\Projects\news_comparison\nywscrape\nywscrape" />
+      <recent name="C:\Users\ural_\Projects\news_comparison\nywscrape\pipeline" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="sources" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nywscrape" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nywscrape" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nywscrape/sources.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.sources" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,17 +123,126 @@
       <option name="project" value="LOCAL" />
       <updated>1630938168723</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <created>1630938242424</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630938242424</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add real gitignore">
+      <created>1630938250667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630938250667</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add gitignore" />
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Add real gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add real gitignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1091" y="281" key="FileChooserDialogImpl" timestamp="1630938108799">
+    <state x="951" y="106" key="CommitChangelistDialog2" timestamp="1630938224795">
       <screen x="62" y="0" width="2498" height="1080" />
     </state>
+    <state x="951" y="106" key="CommitChangelistDialog2/62.0.2498.1080@62.0.2498.1080" timestamp="1630938224795" />
+    <state x="1091" y="281" key="FileChooserDialogImpl" timestamp="1632249317045">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state x="1091" y="281" key="FileChooserDialogImpl/62.0.2498.1080/2560.0.1858.1080@62.0.2498.1080" timestamp="1632249317045" />
     <state x="1091" y="281" key="FileChooserDialogImpl/62.0.2498.1080@62.0.2498.1080" timestamp="1630938108799" />
+    <state x="1188" y="438" width="749" height="204" key="Github.ShareDialog" timestamp="1630938260651">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state x="1188" y="438" width="749" height="204" key="Github.ShareDialog/62.0.2498.1080@62.0.2498.1080" timestamp="1630938260651" />
+    <state width="2477" height="221" key="GridCell.Tab.0.bottom" timestamp="1632347645530">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="1837" height="350" key="GridCell.Tab.0.bottom/62.0.2498.1080/2560.0.1858.1080@2560.0.1858.1080" timestamp="1631881129777" />
+    <state width="2477" height="221" key="GridCell.Tab.0.bottom/62.0.2498.1080/2560.0.1858.1080@62.0.2498.1080" timestamp="1632347645530" />
+    <state width="2477" height="221" key="GridCell.Tab.0.center" timestamp="1632347645530">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="1837" height="350" key="GridCell.Tab.0.center/62.0.2498.1080/2560.0.1858.1080@2560.0.1858.1080" timestamp="1631881129777" />
+    <state width="2477" height="221" key="GridCell.Tab.0.center/62.0.2498.1080/2560.0.1858.1080@62.0.2498.1080" timestamp="1632347645530" />
+    <state width="2477" height="221" key="GridCell.Tab.0.left" timestamp="1632347645530">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="1837" height="350" key="GridCell.Tab.0.left/62.0.2498.1080/2560.0.1858.1080@2560.0.1858.1080" timestamp="1631881129777" />
+    <state width="2477" height="221" key="GridCell.Tab.0.left/62.0.2498.1080/2560.0.1858.1080@62.0.2498.1080" timestamp="1632347645530" />
+    <state width="2477" height="221" key="GridCell.Tab.0.right" timestamp="1632347645530">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="1837" height="350" key="GridCell.Tab.0.right/62.0.2498.1080/2560.0.1858.1080@2560.0.1858.1080" timestamp="1631881129777" />
+    <state width="2477" height="221" key="GridCell.Tab.0.right/62.0.2498.1080/2560.0.1858.1080@62.0.2498.1080" timestamp="1632347645530" />
+    <state width="2477" height="349" key="GridCell.Tab.1.bottom" timestamp="1631991474907">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="1837" height="349" key="GridCell.Tab.1.bottom/62.0.2498.1080/2560.0.1858.1080@2560.0.1858.1080" timestamp="1631880574153" />
+    <state width="2477" height="349" key="GridCell.Tab.1.bottom/62.0.2498.1080/2560.0.1858.1080@62.0.2498.1080" timestamp="1631991474907" />
+    <state width="2477" height="349" key="GridCell.Tab.1.center" timestamp="1631991474907">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="1837" height="349" key="GridCell.Tab.1.center/62.0.2498.1080/2560.0.1858.1080@2560.0.1858.1080" timestamp="1631880574153" />
+    <state width="2477" height="349" key="GridCell.Tab.1.center/62.0.2498.1080/2560.0.1858.1080@62.0.2498.1080" timestamp="1631991474907" />
+    <state width="2477" height="349" key="GridCell.Tab.1.left" timestamp="1631991474907">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="1837" height="349" key="GridCell.Tab.1.left/62.0.2498.1080/2560.0.1858.1080@2560.0.1858.1080" timestamp="1631880574153" />
+    <state width="2477" height="349" key="GridCell.Tab.1.left/62.0.2498.1080/2560.0.1858.1080@62.0.2498.1080" timestamp="1631991474907" />
+    <state width="2477" height="349" key="GridCell.Tab.1.right" timestamp="1631991474907">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state width="1837" height="349" key="GridCell.Tab.1.right/62.0.2498.1080/2560.0.1858.1080@2560.0.1858.1080" timestamp="1631880574153" />
+    <state width="2477" height="349" key="GridCell.Tab.1.right/62.0.2498.1080/2560.0.1858.1080@62.0.2498.1080" timestamp="1631991474907" />
+    <state x="812" y="185" key="SettingsEditor" timestamp="1631865480683">
+      <screen x="62" y="0" width="2498" height="1080" />
+    </state>
+    <state x="812" y="185" key="SettingsEditor/62.0.2498.1080/2560.0.1858.1080@62.0.2498.1080" timestamp="1631865480683" />
+    <state x="812" y="185" key="SettingsEditor/62.0.2498.1080/2560.0.1920.1040@62.0.2498.1080" timestamp="1631136000732" />
+    <state x="2756" y="-10" width="1869" height="737" maximized="true" key="dock-window-1" timestamp="1632596952538">
+      <screen x="2560" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2756" y="-10" width="1869" height="737" maximized="true" key="dock-window-1/62.0.2498.1080/2560.0.1920.1040@62.0.2498.1080" timestamp="1631209439651" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nywscrape/pipeline/storage/postgres.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nywscrape/sources.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
