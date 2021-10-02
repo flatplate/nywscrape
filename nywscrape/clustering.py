@@ -5,14 +5,15 @@ from typing import List, Tuple, Any
 
 import hdbscan
 import numpy as np
-from sklearn.cluster import AgglomerativeClustering, DBSCAN
+from sklearn.cluster import AgglomerativeClustering
 
 
 def cluster_hdbscan(vectors: List[Tuple[int, Any]]):
     clustering = hdbscan.HDBSCAN(min_samples=1,
                                  metric='euclidean',
                                  min_cluster_size=2,
-                                 cluster_selection_method='leaf').fit([v / np.linalg.norm(v) for _, v in vectors])
+                                 cluster_selection_method='leaf',
+                                 cluster_selection_epsilon=0.25).fit([v / np.linalg.norm(v) for _, v in vectors])
     # clustering = DBSCAN(min_samples=1,
     #                     metric='euclidean',
     #                     eps=0.6).fit([v / np.linalg.norm(v) for _, v in vectors])

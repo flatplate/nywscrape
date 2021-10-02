@@ -1,7 +1,7 @@
 import logging
 import time
 
-from nywscrape.clustering import cluster_hac as cluster
+from nywscrape.clustering import cluster_hdbscan as cluster
 from nywscrape.database.database import connect, get_raw_articles, get_document_vectors, write_clusters, \
     insert_sentence_similarities
 from nywscrape.datapusher import load_data

@@ -54,7 +54,7 @@ def load_data():
             cv.authors, 
             cv.image_url, 
             cv.source_domain,
-            cv.date_download,
+            cv.date_publish,
             dc.cluster_id
         FROM clusters c 
             INNER JOIN document_cluster dc ON c.id = dc.clustering
