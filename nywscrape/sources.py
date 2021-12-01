@@ -18,6 +18,8 @@ import schedule
 logging.basicConfig(level="INFO")
 
 device = torch.device("cuda:0")
+
+
 # torch.set_num_threads(10)
 
 
@@ -65,8 +67,9 @@ def main():
         start = time.time()
         batch_size = 200
         for i in range(0, len(articles), batch_size):
-            batch = articles[i: i+batch_size]
-            pipeline.process_batch('raw', list(zip([article.maintext for article in batch], [{"doc": doc} for doc in batch])))
+            batch = articles[i: i + batch_size]
+            pipeline.process_batch('raw',
+                                   list(zip([article.maintext for article in batch], [{"doc": doc} for doc in batch])))
             pipeline.run_all()
         logging.info("Processed {} articles in {} seconds".format(total_articles, time.time() - start))
         start = time.time()
@@ -74,17 +77,19 @@ def main():
         vectors = get_document_vectors(conn)
         logging.info("Clustering {} articles".format(len(vectors)))
         clusters = cluster(vectors)
-        logging.info("Clustered {} articles into {} clusters in {} seconds".format(len(vectors), len(set([c[0] for c in clusters])), time.time() - start))
+        logging.info("Clustered {} articles into {} clusters in {} seconds".format(len(vectors),
+                                                                                   len(set([c[0] for c in clusters])),
+                                                                                   time.time() - start))
         logging.info("Writing clusters to the database")
         clustering_id = write_clusters(conn, clusters)
         logging.info("Wrote clusters to the database")
         logging.info("Calculating and inserting sentence similarities")
-        insert_sentence_similarities(conn, [d for d in sentence_similarity(clusters, clustering_id, conn)], clustering_id)
+        insert_sentence_similarities(conn, [d for d in sentence_similarity(clusters, clustering_id, conn)],
+                                     clustering_id)
         logging.info("Inserted sentence similarities")
         logging.info("Pushing the data")
         load_data()
         logging.info("Finished pushing data")
-
 
 
 if __name__ == '__main__':
